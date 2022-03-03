@@ -61,9 +61,27 @@ inserts:
     - "Azure Blob Storage"
     - "Bing Maps API"
     button_text: View
-    button_link: 
-  - img: /documents.png
+    button_link:
+  - img: /d4h.png
     bg: bg-one
+    heading3: Dental 4 Health
+    description: An application that references user input to a SQL Server Database to verify a user is eligible for a service. If eligible, inserts a row into a specific table.
+    buttons:
+    - button_text: 'View #1'
+      button_link: https://www.floridabluedental.com/members/find-a-dentist/
+    - button_text: 'View #2'
+      button_link: https://www.hmsadental.com/find-a-dentist
+    - button_text: 'View #3'
+      button_link: https://opd.arkansasdentalblue.com
+    bullets:
+    - ".NET Core 3.1"
+    - "ReactJS"
+    - "Microsoft SQL Server"
+    - "Dapper ORM"
+    button_text: View
+    button_link:  
+  - img: /documents.png
+    bg: bg-two
     heading3: Public Document Display
     description: An application that pulls documents from a CDN with searching capabilites. Driven by a composite UI developed with ReactJS. Injectable into multiple webpages and inherits partner branding guidelines.
     buttons:
@@ -76,7 +94,7 @@ inserts:
     - "Webpack"
     - ".NET Core Console App"
   - img: /fees.png
-    bg: bg-two
+    bg: bg-one
     heading3: Provider Fee Schedule Lookup
     description: An application that verifies a providers NPI and delivers relative documents. Secured by Google ReCaptcha V2. Injectable into multiple webpages and inherits partner branding guidelines.
     buttons:
@@ -91,6 +109,8 @@ inserts:
     - "Azure Function (C#)"
 - template: resume
   heading1: Resume
+  pdf: 'Brandon K Martini Resume.pdf'
+  doc: 'Brandon K Martini Resume.doc'
 - template: contact
   heading1: Contact
   
