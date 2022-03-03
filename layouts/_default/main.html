@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ range .Params.inserts }}
+  {{ $path := print "inserts/" .template }}
+  {{ if .template }}
+  {{ partial $path . }}
+  {{ end }}
+  {{ .content | markdownify }}
+  <hr />
+  {{ end }}
+{{ end }}

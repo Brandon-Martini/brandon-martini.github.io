@@ -1,0 +1,42 @@
+{{ $page := . }}
+<div id="projects" class="bg-light sub-sec">
+  <h1 class="text-center">{{ .heading1 }}</h1>
+  <br />
+  <div class="row">
+    <h2 class="text-center">{{ .heading2 }}</h2>
+  {{ range .websites }}
+  <div class="col-lg  project-card {{ .bg }}">
+    <img class="responsive-img" src="{{ .img }}"/>
+    <h3 class="text-center">{{ .heading3 }}</h3>
+    <p>{{ .description }}</p>
+    <div class="text-center"><a href="{{ .button_link }}" class="btn btn-primary " target="_blank">{{ .button_text }}</a></div>
+    <hr />
+    <ul>
+      {{ range .bullets }}
+      <li>{{ . }}</li>
+      {{ end }}
+      </ul>
+  </div>
+  {{ end }}
+  <div class="row">
+    <h2 class="text-center">{{ .heading4 }}</h2>
+  {{ range .apps }}
+  <div class="col-lg project-card {{ .bg }}">
+    <img class="responsive-img" src="{{ .img }}"/>
+    <h3 class="text-center">{{ .heading3 }}</h3>
+    <p>{{ .description }}</p>
+    {{ range .buttons }}
+    <div class="text-center"><a href="{{ .button_link }}" class="btn btn-primary " target="_blank">{{ .button_text }}</a></div>
+    <br />
+    {{ end }}
+    <hr />
+    <ul>
+      {{ range .bullets }}
+      <li>{{ . }}</li>
+      {{ end }}
+      </ul>
+  </div>
+  {{ end }}
+</div> 
+</div>
+</div>

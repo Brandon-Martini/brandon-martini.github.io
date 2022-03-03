@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{{ block "head" . }}
+{{ partial "head.html" . }}
+{{ end }}
+<body id="body-pd">
+  {{ block "nav" . }}{{ partial "nav.html" . }}{{ end }}
+  {{ block "main" . }}{{ end }}
+  {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+</body>
+</html>
