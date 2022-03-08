@@ -6,8 +6,10 @@ inserts:
   heading1: Brandon Martini
   heading2: Full Stack Software Engineer
   img: /pic.jpg
-  sub: Software Engineer II @ USAble Life
-  sub2: Bachelor of Science in Computer Science @ University of Arkansas at Little Rock
+  sub: Software Engineer II
+  sub2: USAble Life
+  sub3: Bachelor of Science in Computer Science
+  sub4: University of Arkansas at Little Rock
 - template: projects
   heading1: Professional Projects
   heading2: Websites
