@@ -226,3 +226,7 @@ a {
 .bg-two {
   background-color: #f5f7ff;
 }
+
+.mybox {
+  font-size: 50px!important;
+}
