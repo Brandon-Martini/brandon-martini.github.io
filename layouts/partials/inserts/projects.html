@@ -26,13 +26,11 @@
     <img class="responsive-img" src="{{ .img }}"/>
     <h3 class="text-center">{{ .heading3 }}</h3>
     <p class="text-center">{{ .description | markdownify }}</p>
-    <div class="row">
     {{ range .buttons }}
     
-    <div class="text-center col-xl project-button"><a href="{{ .button_link }}" class="btn btn-primary " target="_blank">{{ .button_text }}</a></div>
+    <div class="text-center project-button"><a href="{{ .button_link }}" class="btn btn-primary " target="_blank">{{ .button_text }}</a></div>
   
     {{ end }}
-  </div>
     <hr />
     <ul>
       {{ range .bullets }}
