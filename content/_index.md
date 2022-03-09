@@ -72,11 +72,11 @@ inserts:
     description: An application that references user input to a SQL Server Database to verify a user is eligible for a service. If eligible, inserts a row into a specific table.
     buttons:
     - button_text: 'View #1'
-      button_link: https://www.floridabluedental.com/members/find-a-dentist/
+      button_link: https://www.floridabluedental.com/members/enroll-in-oral-health-for-overall-health/
     - button_text: 'View #2'
-      button_link: https://www.hmsadental.com/find-a-dentist
+      button_link: https://www.hmsadental.com/members/oral-health-for-total-health/enroll/
     - button_text: 'View #3'
-      button_link: https://opd.arkansasdentalblue.com
+      button_link: https://www.arkansasbluecross.com/members/dental-xtra/enroll
     bullets:
     - ".NET Core 3.1"
     - "ReactJS"
